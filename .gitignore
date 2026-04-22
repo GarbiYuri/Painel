@@ -1,0 +1,29 @@
+# --- Arquivos Autogerados (via composer run dev) ---
+/resources/js/actions
+/resources/js/routes
+/resources/js/wayfinder
+
+# --- Dependências ---
+/node_modules
+/vendor
+
+# --- Laravel / Vite / React ---
+/public/build
+/public/hot
+/bootstrap/ssr
+/.phpunit.cache
+.phpunit.result.cache
+.vite
+
+# --- Segurança e Ambiente ---
+.env
+.env.backup
+.env.production
+/auth.json
+/storage/*.key
+
+# --- IDEs e Lixo de Sistema ---
+.idea/
+.vscode/
+.DS_Store
+npm-debug.log
